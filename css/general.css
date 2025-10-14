@@ -1,6 +1,7 @@
 body{
     background-image:url(/imagenes/imgbackground.jpg);
     background-attachment: fixed;
+    margin: 0;
 }
 
 .seccion-pagpr{
@@ -12,6 +13,12 @@ body{
   background-image: url(/imagenes/imgmujer2.2.jpg);
   border-radius: 15px;
   margin-bottom: 10px;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  background-color: rgb(240, 255, 255);
 }
 
 h1{
@@ -74,12 +81,16 @@ hr{
   margin-bottom: 20px;
 }
 
+.class-item{
+  
+}
+
 .item {
-   max-width: 600px;
+  max-width: 600px;
   padding: 3px 40px 3px 40px;
   background-color:rgba(240, 255, 255, 0.591);
-   border-radius: 30px;
-   margin: 5px 0px 5px 0px;
+  border-radius: 30px;
+  margin: 5px 0px 5px 0px;
 }
 
 .item p{
@@ -171,3 +182,4 @@ hr{
   border-radius: 15px;
   margin-bottom: 10px;
 }
+
