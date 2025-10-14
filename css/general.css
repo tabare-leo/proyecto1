@@ -7,12 +7,13 @@ body{
 header{
   position: sticky;
   top: 0;
-  background-color: rgb(240, 255, 255);
+  background-color: rgba(251, 251, 251, 0.99);
   z-index: 1000;
 }
 
 nav{
     text-align: center;    
+    font-family: 'Courier New', Courier, monospace;
     padding: px 0px 0px 0px;
     margin-bottom: 20px; 
     font-size: 15px;
