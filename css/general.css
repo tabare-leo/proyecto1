@@ -1,5 +1,5 @@
 body{
-    background-image:url(/imagenes/imgbackground.jpg);
+    background-image:url(../imagenes/imgbackground.jpg);
     background-attachment: fixed;
     margin: 0;
 }
@@ -10,7 +10,7 @@ body{
   margin-right: auto;
   max-width: 700px;
   padding: 20px;
-  background-image: url(/imagenes/imgmujer2.2.jpg);
+  background-image: url(../imagenes/imgmujer2.2.jpg);
   border-radius: 15px;
   margin-bottom: 10px;
 }
@@ -81,9 +81,6 @@ hr{
   margin-bottom: 20px;
 }
 
-.class-item{
-  
-}
 
 .item {
   max-width: 600px;
@@ -119,7 +116,7 @@ hr{
   margin-right: auto;
   max-width: 700px;
   padding: 20px;
-  background-image: url(/imagenes/imgmujer5.jpg);
+  background-image: url(../imagenes/imgmujer5.jpg);
   border-radius: 15px;
   background-size: cover;
   border-radius: 15px;
@@ -132,7 +129,7 @@ hr{
   margin-right: auto;
   max-width: 700px;
   padding: 20px;
-  background-image: url(/imagenes/imgmujer4.jpg);
+  background-image: url(../imagenes/imgmujer4.jpg);
   border-radius: 15px;
   background-size: cover;
   border-radius: 15px;
@@ -152,7 +149,7 @@ hr{
   margin-right: auto;
   max-width: 700px;
   padding: 20px;
-  background-image: url(/imagenes/imghombre1.jpg);
+  background-image: url(../imagenes/imghombre1.jpg);
   border-radius: 15px;
   background-size:cover;
   border-radius: 15px;
@@ -164,7 +161,7 @@ hr{
   margin-right: auto;
   max-width: 700px;
   padding: 20px;
-  background-image: url(/imagenes/imghombre2.jpg);
+  background-image: url(../imagenes/imghombre2.jpg);
   border-radius: 15px;
   background-size:contain;
   border-radius: 15px;
@@ -176,7 +173,7 @@ hr{
   margin-right: auto;
   max-width: 700px;
   padding: 20px;
-  background-image: url(/imagenes/imghombre3.jpg);
+  background-image: url(../imagenes/imghombre3.jpg);
   border-radius: 15px;
   background-size:cover;
   border-radius: 15px;
