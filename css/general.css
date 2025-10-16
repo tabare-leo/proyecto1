@@ -9,22 +9,35 @@ header{
   top: 0;
   background-color: rgba(251, 251, 251, 0.99);
   z-index: 1000;
+  border-bottom: 2px solid #b3b0b0;
+  height: 180px;
 }
 
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; 
+    margin-top: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    float: left;
+    }      
+
 nav{
-    text-align: center;    
-    font-family: 'Courier New', Courier, monospace;
-    padding: px 0px 0px 0px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 0px 10px 0px;
     margin-bottom: 20px; 
     font-size: 15px;
-    border-radius: 15px;    
     }
 
-ul {
+ul{
     padding: 5px;
     margin-top: -20px;
     margin-bottom: -15px;
   }
+
 
 li{
     display: inline;
@@ -32,7 +45,14 @@ li{
     font-size: 20px;
     font-weight: bold;
     color: rgba(12, 70, 70, 0.592);
-    }
+    justify-self: space-between;
+}
+
+
+li a{
+    text-decoration: none; 
+    color: rgba(12, 70, 70, 0.592);
+      }
 
 .seccion-pagpr{
   width:80%;
@@ -42,13 +62,13 @@ li{
   padding: 20px;
   background-image: url(../imagenes/imgmujer2.2.jpg);
   border-radius: 15px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
  
 h1{
     text-align: center;
     font-family: Brush Script MT, cursive;
-    font-style: italic;
     font-size: 100px;
     margin-top: 0px;
     margin-bottom: 10px;
