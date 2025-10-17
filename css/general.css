@@ -4,12 +4,9 @@ body{
     margin: 0;
 }
 
-header{
-  /* position: sticky; */
-  /* top: 0; */
+header{  
   background-color:white;
   z-index: 1000;
-  /* height: 200px; */
  }
 
 .header-container {
@@ -40,20 +37,15 @@ nav{
 nav ul{
    display: flex; 
    justify-content: center;
-    /* align-items: center; */
     padding: 5px;
-    /* margin-top: -20px;
-    margin-bottom: -15px; */
   }
 
 
 li{
-    /* display: inline; */
     margin: 0px 15px;
     font-size: 20px;
     font-weight: bold;
     color: rgba(12, 70, 70, 0.592);
-    /* justify-self: space-between; */
     list-style: none;
 }
 
@@ -73,8 +65,6 @@ nav ul li:hover ul {
     flex-direction: column;
 
 }
-
-
 
 .seccion-pagpr{
   width:80%;
