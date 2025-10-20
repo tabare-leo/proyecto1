@@ -5,7 +5,7 @@ body{
 }
 
 header{  
-  background-color:white;
+  background-image: url(../imagenes/imgheader.jpg);
   z-index: 1000;
  }
 
@@ -13,6 +13,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 5px 0px 5px 0px;
 }
 
 .logo {
@@ -28,16 +29,17 @@ nav{
   top: 0;
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 10px 0px 10px 0px;
+  padding: 2px 0px 2px 0px;
   margin-bottom: 20px; 
   font-size: 15px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  z-index: 999;
 }
 
 nav ul{
-   display: flex; 
-   justify-content: center;
-    padding: 5px;
+  display: flex; 
+  justify-content: center;
+  padding: 2.5px;
   }
 
 
@@ -47,6 +49,9 @@ li{
     font-weight: bold;
     color: rgba(12, 70, 70, 0.592);
     list-style: none;
+    border-radius: 10px;
+    background-color: rgb(240, 255, 255);
+    padding: 5px 10px 5px 10px;
 }
 
 
@@ -57,7 +62,10 @@ li a{
 
 .submenu {
     display: none;
+    justify-content: flex-start;
     position: absolute;
+    list-style: none;
+
 }
 
 nav ul li:hover ul {
@@ -84,7 +92,7 @@ h1{
     font-size: 100px;
     margin-top: 0px;
     margin-bottom: 10px;
-    color: rgba(12, 70, 70, 0.592); 
+    color: rgb(87, 116, 126); 
    }
 
 
@@ -138,8 +146,8 @@ hr{
   }
 
 .modelos {
-  text-align: left;
- width: 50%;
+  text-align:justify;
+ width: 49%;
 }
 
 .price {
