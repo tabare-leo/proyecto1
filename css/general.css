@@ -5,7 +5,7 @@ body{
 }
 
 header{  
-  background-image: url(../imagenes/imgheader.jpg);
+  background-color: rgb(255, 255, 255);
   z-index: 1000;
  }
 
@@ -42,7 +42,6 @@ nav ul{
   padding: 2.5px;
   }
 
-
 li{
     margin: 0px 15px;
     font-size: 20px;
@@ -53,7 +52,6 @@ li{
     background-color: rgb(240, 255, 255);
     padding: 5px 10px 5px 10px;
 }
-
 
 li a{
     text-decoration: none; 
@@ -73,19 +71,7 @@ nav ul li:hover ul {
     flex-direction: column;
 
 }
-
-.seccion-pagpr{
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 700px;
-  padding: 20px;
-  background-image: url(../imagenes/imgmujer2.2.jpg);
-  border-radius: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
- 
+  
 h1{
     text-align: center;
     font-family: Brush Script MT, cursive;
@@ -94,7 +80,6 @@ h1{
     margin-bottom: 10px;
     color: rgb(87, 116, 126); 
    }
-
 
 p{
     font-size: 40px;
@@ -160,7 +145,18 @@ hr{
   display:contents;
 }
 
-.seccion-pagsc{
+.seccion-mi{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  padding: 20px;
+  background-image:url(../imagenes/imgmujer2.2.jpg);
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.seccion-mii{
   width:80%;
   margin-left: auto;
   margin-right: auto;
@@ -173,7 +169,7 @@ hr{
   margin-bottom: 10px;
 }
 
-.seccion-pagac{
+.seccion-miii{
   width:80%;
   margin-left: auto;
   margin-right: auto;
@@ -186,14 +182,14 @@ hr{
   margin-bottom: 10px;
 }
 
-.seccion-pagpr .item:hover, .seccion-pagsc .item:hover, .seccion-pagac .item:hover {
+.seccion-mi .item:hover, .seccion-mii .item:hover, .seccion-,.seccion-miii .item:hover {
   background-color:rgba(240, 255, 255, 0.8);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
   transition: all 0.3s ease;
 }
 
-.seccion-paguno{
+.seccion-hi{
   width:80%;
   margin-left: auto;
   margin-right: auto;
@@ -205,7 +201,7 @@ hr{
   border-radius: 15px;
   margin-bottom: 10px;
 }
-.seccion-pagdos{
+.seccion-hii{
   width:80%;
   margin-left: auto;
   margin-right: auto;
@@ -217,7 +213,7 @@ hr{
   border-radius: 15px;
   margin-bottom: 10px;
 } 
-.seccion-pagtres{
+.seccion-hiii{
   width:80%;
   margin-left: auto;
   margin-right: auto;
