@@ -30,7 +30,7 @@ nav{
   text-align: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 2px 0px 2px 0px;
-  margin-bottom: 20px; 
+  /* margin-bottom: 20px;  */
   font-size: 15px;
   background-color: rgb(255, 255, 255);
   z-index: 999;
@@ -95,9 +95,7 @@ h2{
   font-size: 40px;
   font-style: italic;
   font-family:fantasy;
-  color:rgb(87, 116, 126);  
-  margin-bottom: 25px;
-  margin-top: 0px;
+  color:rgb(87, 116, 126); 
 }
 
 h3{
@@ -254,7 +252,7 @@ hr{
   max-width: 700px;
   padding: 20px; 
   border-radius: 15px;
-  margin-top: 10px;
+  /* margin-top: 20px; */
   margin-bottom: 10px;
 }
 
@@ -265,7 +263,7 @@ hr{
   max-width: 700px;
   padding: 20px; 
   border-radius: 15px;
-  margin-top: 10px;
+  /* margin-top: 100px; */
   margin-bottom: 10px;
 }
 
@@ -276,7 +274,7 @@ hr{
   max-width: 700px;
   padding: 20px; 
   border-radius: 15px;
-  margin-top: 10px;
+  /* margin-top: 100px; */
   margin-bottom: 10px;
 }
 
@@ -293,3 +291,4 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   border-radius: 30px;
   margin: 5px 0px 5px 0px;
 }
+
