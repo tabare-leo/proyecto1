@@ -7,6 +7,7 @@ body{
 header{  
   /* background-color: rgb(255, 255, 255); */
   z-index: 1000;
+  
  }
 
 .header-container {
@@ -21,9 +22,12 @@ header{
     height: auto;
     margin: 10px 20px 0px 20px;
     border-radius: 100px;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
-nav{
+  nav{
   position: sticky;
   top: 0;
   text-align: center;
@@ -93,8 +97,8 @@ p{
 h2{
   font-size: 40px;
   font-style: italic;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:rgb(87, 116, 126);
+  font-family:fantasy;
+  color:rgb(63, 64, 68);
   margin: 55px 0px 25px 0px; 
 }
 
@@ -105,7 +109,6 @@ h3{
   font-size: 35px;
   color:rgba(240, 255, 255, 0.741);
   margin:50px 0px 10px 5;
-
   background-color:rgb(1, 42, 86);
   max-width: fit-content;
   border-radius: 15px;
@@ -229,16 +232,14 @@ hr{
   /* margin-bottom: 10px; */
 }
 
-#p-redsociales{
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  color: rgba(12, 70, 70, 0.592); 
- }
+.seccion-hi .item:hover, .seccion-hii .item:hover, .seccion-hiii .item:hover {
+  background-color:rgba(240, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease; 
+}
 
- .seccion-qs, .seccion-ni {
+ .seccion-qs, .seccion-ni, .seccion-nii{
   width:80%;
   margin-left: auto;
   margin-right: auto;
@@ -271,6 +272,13 @@ hr{
   margin-bottom: 10px;
 }
 
+.seccion-ni .item:hover {
+  background-color:rgba(240, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease; 
+}
+
 .justificado{
 text-align: justify;
 font-size:large;
@@ -280,7 +288,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 .item-princ{
   max-width: 600px;
   padding: 3px 40px 3px 40px;
-  background-color:rgba(240, 255, 255, 0.781);
+  background-color:rgba(240, 255, 255, 0.551);
   border-radius: 30px;
   margin: 5px 0px 5px 0px;
 }
