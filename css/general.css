@@ -10,7 +10,7 @@ header {
 
 }
 
-.header-container {
+.div-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,8 +18,8 @@ header {
 }
 
 .logo {
-  width: 150px;
-  height: auto;
+  width: 95px;
+  /* height: auto; */
   margin: 10px 20px 0px 20px;
   border-radius: 100px;
   transform: translateY(-5px);
@@ -32,8 +32,7 @@ nav {
   top: 0;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 2px 0px 2px 0px;
-  /* margin-bottom: 20px;  */
+  /* padding: 2px 0px 2px 0px; */
   font-size: 15px;
   background-color: rgb(255, 255, 255);
   z-index: 999;
@@ -44,8 +43,6 @@ nav ul {
   justify-content: center;
   padding: 2.5px;
 }
-
-
 
 li {
   margin: 0px 15px;
@@ -250,9 +247,7 @@ hr {
   transition: all 0.3s ease;
 }
 
-.seccion-qs,
-.seccion-ni,
-.seccion-nii {
+.seccion-qs,.seccion-ni,.seccion-nii, .seccion-niii {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -262,6 +257,8 @@ hr {
   /* margin-top: 20px; */
   margin-bottom: 10px;
 }
+
+
 
 .seccion-tmj {
   width: 80%;
@@ -354,3 +351,14 @@ h1{
     text-align: center;
   } */
 }
+
+.label {
+  font-style: normal;
+  color: rgb(1, 54, 54);
+  font-style: italic;
+}
+
+.calendario {
+  justify-content:space-around;
+}
+
