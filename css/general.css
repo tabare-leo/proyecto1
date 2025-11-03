@@ -7,7 +7,6 @@ body {
 header {
   /* background-color: rgb(255, 255, 255); */
   z-index: 1000;
-
 }
 
 .div-container {
@@ -18,13 +17,13 @@ header {
 }
 
 .logo {
-  width: 95px;
+  width: 85px;
   /* height: auto; */
   margin: 10px 20px 0px 20px;
   border-radius: 100px;
   transform: translateY(-5px);
   transition: all 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 nav {
@@ -98,16 +97,15 @@ h2 {
   font-style: italic;
   font-family: fantasy;
   color: rgb(63, 64, 68);
-  margin: 55px 0px 25px 0px;
+  margin: 85px 0px 25px 0px;
 }
 
-h3 {
+h3 , .titulos-mujer, .titulos-hombre{
   font-style: italic;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: left;
   font-size: 35px;
   color: rgba(240, 255, 255, 0.741);
-  margin: 50px 0px 10px 5;
   background-color: rgb(1, 42, 86);
   max-width: fit-content;
   border-radius: 15px;
@@ -324,6 +322,10 @@ address {
 @media (max-width: 1000px) {
 .header-container{
   flex-direction: column;
+}
+
+body{
+
 }
 
 h1{
