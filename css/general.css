@@ -256,8 +256,6 @@ hr {
   margin-bottom: 10px;
 }
 
-
-
 .seccion-tmj {
   width: 80%;
   margin-left: auto;
@@ -324,7 +322,6 @@ address {
   flex-direction: column;
 }
 
-
 }
 
 h1{
@@ -351,9 +348,9 @@ h1{
     flex-direction: column;
     text-align: center;
   } */
-}
 
-.label {
+
+.label, .date, .miCalendario, .onclick{
   font-style: normal;
   color: rgb(1, 54, 54);
   font-style: italic;

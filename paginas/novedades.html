@@ -101,11 +101,14 @@
             <p class="justificado">Con la guía de excelentes profesionales conocerás las mejores técnicas con las que embellecer tu prenda.</p>
             <p class="justificado">Puedes customizar tus jeans con técnicas como pintar directamente con pintura textil, cortar y desgastar la tela con lijas o arena, o añadir adornos cosidos como puntillas, madroños, parches o cadenas. Otra opción es modificar el bajo cortándolo y quemando los bordes para un acabado desflecado.</p>
             <p class="justificado">¡Contáctanos y aparta tu plaza para los próximos talleres del mes.</p>
-            <label for="fecha"><p class="justificado">Selecciona una fecha:</p></label>
-                <input type="date" id="fecha" name="fecha">
+                <label for="campoFecha">Elige una fecha:</label>
+                <input list="fecha" id="miCalendario" name="elegir-fecha">
+                <button onclick="guardarFecha()">Guardar</button>
+                 <script src="/script.js"></script>
         </article>
     </section>
     </main>
+    
    <footer>
         <address>
     <p class="redsoc">Contacta con nosotros:
